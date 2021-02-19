@@ -1,0 +1,31 @@
+{
+  "name": "hgrtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "watchify src/index.js -o main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow-models/handpose": "0.0.6",
+    "@tensorflow/tfjs-backend-webgl": "2.1.0",
+    "@tensorflow/tfjs-converter": "2.1.0",
+    "@tensorflow/tfjs-core": "2.1.0",
+    "fingerpose": "0.0.2",
+    "three": "^0.125.2",
+    "three-gltf-loader": "^1.111.0",
+    "three-orbitcontrols": "^2.110.3",
+    "watchify": "^4.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "@babel/preset-react": "^7.12.13",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babelify": "^8.0.0"
+  }
+}
